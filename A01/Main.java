@@ -1,3 +1,5 @@
+import java.io.BufferedReader;
+import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -24,7 +26,7 @@ public class Main {
            
             switch (opcion){
                 case 1:
-                    System.out.println("Generar un nou encàrrec");
+                    generarNouEncarrec(reader);
                     break;
                 case 2:
                     System.out.println("Mostrar un encàrrec.");
@@ -35,14 +37,20 @@ public class Main {
                 default:   
                    System.out.println("Las opciones son entre 1 y 3");
                
-            }
+                }
             }
             catch(InputMismatchException e){
                 System.out.println("Escoge una opcion del menu");
                 sn.next();
             }
-    }
+        }
    
                 System.out.println("Sistema finalizado... ");
-}
+    }
+
+    public static void  generarNouEncarrec(BufferedReader reader) throws IOException{
+        System.out.println("Per generar un nou encàrrec necesitarem les seguents dades:");
+        
+        
+    }
 }   

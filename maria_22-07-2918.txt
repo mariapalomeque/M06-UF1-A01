@@ -1,0 +1,7 @@
+Nom del client: maria
+Telèfon del client: 123456789
+Data de l'encàrrec: 22/07/2918
+Quantitat	Unitats	Article
+=============== ======== ===========
+1.5             kg         pera           
+1.0             ampolla    vi             
